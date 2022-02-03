@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShareActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Spread Sakura's Loveliness to The World!"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/custom_2"/>
+
+    <Button
+        android:id="@+id/button_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share on Facebook"
+        android:background="@color/custom_3"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button_insta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share on Instagram"
+        android:background="@color/custom_3"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share on Twitter"
+        android:background="@color/custom_3"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>

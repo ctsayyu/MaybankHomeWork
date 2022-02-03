@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="what is hana no sakura?"
+        android:textAllCaps="true"
+        android:textColor="@color/custom_1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="We are the largest fanbase of Miyawaki Sakura, founded in 2010 and has been
+actively supporting Sakura throughout her career, from HKT48, AKB48, Produce48, IZONE, and now in Hybe.
+Once a Sakura's Fan, forever Sakura's fan! "
+        android:layout_marginTop="150dp"
+        android:textStyle="normal"
+        android:textColor="@color/custom_2" />
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="350dp"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="100dp"
+       android:src="@drawable/about_us" />
+
+</FrameLayout>
