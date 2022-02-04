@@ -43,6 +43,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        NavigationView navigationView = findViewById(R.id.navView);
+        View headerView = getLayoutInflater().inflate(R.layout.nav_header_layout, navigationView, false);
+        navigationView.addHeaderView(headerView);
+
+        ImageView login = headerView.findViewById(R.id.login);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loginIntent = new Intent(Intent.ACTION_VIEW);
+                loginIntent.setData(Uri.parse("https://www.google.com"));
+                startActivity(loginIntent);
+            }
+        });
+
+
         // custom toolbar
         setSupportActionBar(binding.toolbar);
 
